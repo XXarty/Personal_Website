@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personal Website - Home</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <script defer src="assets/js/main.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">My Personal Site</a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <nav class="site-nav" aria-label="Main">
+        <ul class="menu">
+          <li><a href="education.html">Education</a></li>
+          <li><a href="experience.html">Professional Experience</a></li>
+          <li class="has-dropdown">
+            <button class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">Hobby</button>
+            <ul class="dropdown">
+              <li class="has-dropdown nested">
+                <a href="hobby/travel/index.html">Travel</a>
+                <ul class="dropdown">
+                  <li><a href="hobby/travel/trip-1.html">Trip 1</a></li>
+                  <li><a href="hobby/travel/trip-2.html">Trip 2</a></li>
+                  <li><a href="hobby/travel/trip-3.html">Trip 3</a></li>
+                </ul>
+              </li>
+              <li class="has-dropdown nested">
+                <a href="hobby/game/index.html">Game</a>
+                <ul class="dropdown">
+                  <li><a href="hobby/game/title-1.html">Title 1</a></li>
+                  <li><a href="hobby/game/title-2.html">Title 2</a></li>
+                  <li><a href="hobby/game/title-3.html">Title 3</a></li>
+                </ul>
+              </li>
+              <li class="has-dropdown nested">
+                <a href="hobby/anime/index.html">Anime</a>
+                <ul class="dropdown">
+                  <li><a href="hobby/anime/series-1.html">Series 1</a></li>
+                  <li><a href="hobby/anime/series-2.html">Series 2</a></li>
+                  <li><a href="hobby/anime/series-3.html">Series 3</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="has-dropdown">
+            <button class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">Contact</button>
+            <ul class="dropdown">
+              <li><a href="contact.html">Contact Overview</a></li>
+              <li><a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a></li>
+              <li><a href="mailto:your.email@example.com">Email</a></li>
+              <li><a href="#">WeChat: your_wechat_id</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h1>Hi, I'm Your Name</h1>
+      <p>
+        Welcome to my personal website. I'm a [your role or field], passionate about
+        [key interests]. Here you can learn about my education, professional experience,
+        hobbies (including travel, games, and anime), and how to contact me.
+      </p>
+      <a class="btn" href="experience.html">View My Experience</a>
+    </section>
+
+    <section class="highlights">
+      <div class="card">
+        <h2>Education</h2>
+        <p>Degrees, courses, and certifications that shaped my journey.</p>
+        <a class="link" href="education.html">Explore Education →</a>
+      </div>
+      <div class="card">
+        <h2>Professional Experience</h2>
+        <p>Roles, achievements, and projects from my career.</p>
+        <a class="link" href="experience.html">View Experience →</a>
+      </div>
+      <div class="card">
+        <h2>Hobby</h2>
+        <p>Travel logs, favorite games, and anime that inspire me.</p>
+        <a class="link" href="hobby/index.html">See Hobbies →</a>
+      </div>
+      <div class="card">
+        <h2>Contact</h2>
+        <p>Let's connect on LinkedIn or via email for opportunities.</p>
+        <a class="link" href="contact.html">Get In Touch →</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Your Name. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
+
+
