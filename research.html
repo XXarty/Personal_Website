@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Research by Runye Xu: emerging-market sovereign debt duration supply, cryptocurrency overnight drift, and crypto spot-perpetual arbitrage — each with report, code, data and slides links." />
+  <title>Research — Runye Xu</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <script>document.documentElement.classList.add('js');</script>
+  <script defer src="assets/js/main.js"></script>
+</head>
+<body>
+
+  <div class="bg-decor" aria-hidden="true">
+    <div class="bg-side bg-left"><span class="bg-glyph">&part;</span></div>
+    <div class="bg-side bg-right">
+      <svg class="bg-wave" viewBox="0 0 240 320" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path d="M0 262 C 42 244, 74 208, 108 214 S 186 236, 240 186" />
+      </svg>
+    </div>
+  </div>
+
+  <header class="site-head">
+    <div class="wrap-wide head-inner">
+      <a class="brand" href="index.html">Runye Xu</a>
+      <button class="nav-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="nav">Menu</button>
+      <nav class="nav" id="nav" aria-label="Main">
+        <a href="index.html">Home</a>
+        <a href="research.html" aria-current="page">Research</a>
+        <a href="cv.html">CV</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <header class="page-head">
+      <div class="wrap">
+        <p class="label">Research</p>
+        <h1>Research &amp; projects</h1>
+        <p class="lede">
+          Working and completed research in empirical asset pricing. I do not yet have journal
+          publications; drafts are available on request, and every project carries slots for its
+          report, code, data and slides.
+        </p>
+        <p class="linkbar">
+          <a href="#working">Working</a><span class="sep">·</span>
+          <a href="#completed">Completed</a>
+        </p>
+      </div>
+    </header>
+
+    <section class="section" id="working">
+      <div class="wrap">
+        <header class="sec-head reveal">
+          <p class="label">Working</p>
+          <h2>Working projects</h2>
+        </header>
+
+        <div class="entries reveal">
+
+          <article class="entry" id="duration-risk">
+            <p class="entry-meta">
+              <span class="status">Work in progress</span><span class="sep">·</span>
+              <span>Personal project</span><span class="sep">·</span>
+              <span>Supervisor: Prof. Paul Whelan</span>
+            </p>
+            <h3>The Price of Duration Risk in Emerging Markets</h3>
+            <p class="abstract">
+              A security-level panel of emerging-market sovereign bonds from LSEG (1995–2025) and
+              maturity-weighted debt-to-GDP measures of duration supply, used to extend the
+              Greenwood–Vayanos (2014) framework to settings where inflation and exchange-rate
+              exposure change the pricing problem.
+            </p>
+            <p class="links">
+              <!-- TODO: replace with the GitHub repo URL for this project -->
+              <a class="pending" href="#" aria-disabled="true">GitHub</a><span class="sep">·</span>
+              <a class="pending" href="#" aria-disabled="true">Report</a><span class="sep">·</span>
+              <a class="pending" href="#" aria-disabled="true">Data</a><span class="sep">·</span>
+              <a class="pending" href="#" aria-disabled="true">Slides</a>
+            </p>
+          </article>
+
+          <article class="entry" id="overnight-drift">
+            <p class="entry-meta">
+              <span class="status">Work in progress</span><span class="sep">·</span>
+              <span>With Prof. Paul Whelan, Dr. Niklas Kroner, Ms. Linda Lee Zhang</span>
+            </p>
+            <h3>Cryptocurrency Overnight Drift</h3>
+            <p class="abstract">
+              Five-minute spot data from Binance, Coinbase and OKX document a robust concentration
+              of positive BTC and ETH returns in the 5:00–6:00 p.m. ET hour, with Newey–West-adjusted
+              inference and cross-exchange robustness tests.
+            </p>
+            <p class="links">
+              <!-- TODO: replace with the GitHub repo URL for this project -->
+              <a class="pending" href="#" aria-disabled="true">GitHub</a><span class="sep">·</span>
+              <a class="pending" href="#" aria-disabled="true">Report</a><span class="sep">·</span>
+              <a class="pending" href="#" aria-disabled="true">Data</a><span class="sep">·</span>
+              <a class="pending" href="#" aria-disabled="true">Slides</a>
+            </p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="completed">
+      <div class="wrap">
+        <header class="sec-head reveal">
+          <p class="label">Completed</p>
+          <h2>Completed projects</h2>
+        </header>
+
+        <div class="entries reveal">
+
+          <article class="entry" id="spot-perp-arbitrage">
+            <p class="entry-meta">
+              <span class="status">Completed</span><span class="sep">·</span>
+              <span>Apr 2025</span><span class="sep">·</span>
+              <span>CUHK industrial project · Supervisor: Prof. Paul Whelan &amp; Mr. Jason Ng</span>
+            </p>
+            <h3>Crypto Spot–Perpetual Futures Arbitrage on Binance</h3>
+            <p class="abstract">
+              A mean-reversion signal engine on hourly spot–perp spreads (2020–2025), a Python
+              backtester with position management and capital constraints, and an extension to
+              funding-rate modelling in the cash-and-carry leg.
+            </p>
+            <p class="links">
+              <!-- TODO: replace with the GitHub repo URL for this project -->
+              <a class="pending" href="#" aria-disabled="true">GitHub</a><span class="sep">·</span>
+              <a class="pending" href="#" aria-disabled="true">Report</a><span class="sep">·</span>
+              <a class="pending" href="#" aria-disabled="true">Data</a><span class="sep">·</span>
+              <a class="pending" href="#" aria-disabled="true">Slides</a>
+            </p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Applied projects: add a <section class="section" id="applied"> with .entries here
+         once there is industry or applied work to list. -->
+
+  </main>
+
+  <footer class="site-foot">
+    <div class="wrap-wide foot-inner">
+      <p>© <span id="year"></span> Runye Xu</p>
+      <nav class="foot-nav" aria-label="Footer">
+        <a href="index.html">Home</a>
+        <a href="research.html">Research</a>
+        <a href="cv.html">CV</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <p class="foot-mono">Hong Kong SAR</p>
+    </div>
+  </footer>
+
+</body>
+</html>
